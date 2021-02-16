@@ -19,19 +19,9 @@ If a topic or collection already exists, it will be listed in its respective dir
 
 The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to th
 
-To make an improvement, please **open a pull request** with your proposed changes:
+To make an improvement, please **open a pull request** with your proposed 
 
-### Update the image
-
-To update the image, simply replace the image inside the directory for the topic or collection.
-
-### Update text and links
-
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
-
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
-
-_/topics/algorithm/index.md_:
+#**Collection**
 ```
 ---
 aliases: algorithms
@@ -43,6 +33,7 @@ wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
 Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
 ```
 
+---
 ---
 
 Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
