@@ -1,0 +1,114 @@
+Skip to content
+PEPS-Project
+/
+peps
+Code
+Issues
+1
+Pull requests
+1
+Actions
+Projects
+Wiki
+Security
+Insights
+ReleasesTags
+Mandatory Release v2.3.2
+ v2.3.2
+ ace0124
+@ZioFabry ZioFabry released this on 22 Mar 2020
+
+PEPS Core version v2.3.2 is now available from: https://github.com/Browser-Project/Brower coin/releases
+
+This is a new revision version release, including various bug fixes and performance improvements, as well as updated translations.
+
+Please report bugs using the issue tracker at github: https://github.com/Browser-Project/Browser coin/issues
+
+Mandatory Update
+PPS Core v2.3.2 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will need to update their clients before enforcement of this update goes into effect.
+
+Update enforcement is currently scheduled to go into effect likely at the following time:
+
+Mainnet: Saturday, 2 May 2020 12:00:00 AM GMT
+
+Masternodes will need to be restarted once both the masternode daemon and the controller wallet have been upgraded.
+
+How to Upgrade
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PEPS-Qt (on Mac) or PEPSd/PEPS-qt (on Linux).
+
+Compatibility
+PEPS Core is extensively tested on multiple operating systems using the Ubuntu Linux kernel, macOS 10.10+, and Windows 7 and later.
+
+Microsoft ended support for Windows XP on April 8th, 2014, No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
+
+Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on December 14, 2015. PEPS Core software starting with v2.3.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+
+PEPS Core should also work on most other Unix-like systems but is not frequently tested on them.
+
+Notable Changes
+New Wallet UI
+v2.3.2 introduces a completely new GUI for the wallet, designed and coded from the ground up by the PEPS team. This new UI, aside from the overall design large implementation, includes user-focused improvements and features such as a brief introduction on wallet balance, locked coins, zPEPS statistics and more.
+
+New Consensus Rules
+The following consensus rule changes will be enforced on or shortly after block 800000. Note that Upgrade Enforcement (mentioned above) will occur prior to this block height.
+
+Internal Miner/Staker Change
+The new version has made some changes in subsidy distribution between masternodes and stakers. New distribution is listed on PEPS website, discord, bitcointalk and other channels.
+
+Faster Shutdown During Initial Loading
+Previously, the wallet was loading a video at the time of start which was taking little longer and higher memory than required. Now the startup has been faster since the loading video is removed. The shutdown has also been a little quicker now.
+
+Credits
+Thanks to everyone who directly contributed to this release.
+
+Taylor
+ZioFabry
+AlkaiseR
+Ian FrostFair
+Odacir
+TKPoseidon
+Everton
+As well as everyone that helped translating on Transifex, the QA team testing wallets and help in debugging. Special thanks to everyone who is helping PEPS community at Discord, Telegram, Twitter and other.
+
+Assets
+14
+multipeps.sh
+13 KB
+peps-cli.exe
+3.16 MB
+peps-mn.sh
+4.14 KB
+peps-v2.3.2-Reon-ubuntu-16.zip
+3.48 MB
+peps-v2.3.2-Reon-ubuntu-18.zip
+6.33 MB
+peps-v2.3.2-linux-ubuntu16.tar.gz
+9.64 MB
+peps-v2.3.2-linux-ubuntu18.tar.gz
+22 MB
+peps-v2.3.2-osx-mojave.dmg
+80.3 MB
+peps-v2.3.2-win32.zip
+21.4 MB
+peps-v2.3.2-win64-beta.zip
+18.2 MB
+peps-v2.3.2-win64.zip
+21.7 MB
+update-mn.sh
+2.55 KB
+Source code
+(zip)
+Source code
+(tar.gz)
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
