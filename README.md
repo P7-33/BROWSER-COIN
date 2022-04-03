@@ -1,5 +1,4 @@
 
-
 # Contributing
 
 jasonlong/isometric-contributions
@@ -182,16 +181,5 @@ Probot apps
 brandonrosage
 probot-apps.png
 Use these pre-built apps to extend GitHub and automate your workflow.
+https://github.com/P7-33/MATRIX-COIN.wiki.git
 
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
